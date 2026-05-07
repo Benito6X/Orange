@@ -1,0 +1,27 @@
+ARI v10 — Motor humano + UI premium móvil
+
+Qué incluye:
+- engine.js v10: nuevo detector de intención, humor, saludos, texto, código, imágenes, memoria y respuestas directas.
+- index.html: interfaz más premium, mejor adaptación móvil, acciones rápidas y pantalla de bienvenida más compacta.
+- brain/core.js: personalidad base.
+- brain/mente.js: conocimiento adicional de humor y conversación directa.
+
+Instalación:
+1. Haz copia de seguridad de tu proyecto.
+2. Copia `engine.js` en la raíz del proyecto.
+3. Copia `index.html` en la raíz del proyecto.
+4. Copia `brain/core.js` y `brain/mente.js` dentro de tu carpeta brain.
+5. Mantén tus otros archivos brain: tech.js, ciencias.js, matematicas.js, humanidades.js, vida.js, extras.js.
+6. Abre la app y recarga con Ctrl+F5 para limpiar caché.
+
+Pruebas:
+- Hola
+- Cómo estás
+- Cuéntame un chiste
+- Qué es un chiste
+- Crea un saludo de buenos días
+- Crea código para una calculadora
+- Dame ideas para mejorar mi app
+
+Nota:
+Sin API o modelo LLM real, Ari no será igual que ChatGPT, pero este motor deja de tratar pedidos simples como preguntas genéricas.

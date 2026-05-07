@@ -1,0 +1,17 @@
+{
+  "name": "ari-ia-real-ready",
+  "version": "12.0.0",
+  "private": true,
+  "description": "Ari con arquitectura core: planner, reasoner, evaluator, memoria semántica, herramientas y aprendizaje.",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev",
+    "check:core": "node scripts/check_core.js"
+  },
+  "dependencies": {
+    "openai": "latest"
+  },
+  "devDependencies": {
+    "vercel": "latest"
+  }
+}

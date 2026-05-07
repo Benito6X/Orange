@@ -1,0 +1,32 @@
+ARI v7 — Razonamiento local + conocimiento ampliado
+
+Qué cambió:
+
+1. engine.js fue reemplazado por un motor v7.
+   - Detecta intención antes de buscar keywords.
+   - Evita que “saludo” gane cuando el usuario pide crear un saludo.
+   - Responde diferente a “buenos días”, “cómo estás” y “crea un saludo”.
+   - Usa memoria, emoción y contexto.
+   - Tiene generadores para saludos, código y respuestas creativas.
+
+2. brain/core.js fue mejorado.
+   - Menos frases robóticas.
+   - Mejor identidad, ayuda, motivación y explicación.
+
+3. brain/mente.js fue agregado.
+   - Conocimiento sobre IA local, razonamiento, conversación humana, producto digital,
+     UI/UX, programación, seguridad, aprendizaje, negocios y pensamiento crítico.
+
+Importante:
+Sin API o modelo LLM real, Ari no puede razonar como ChatGPT.
+Pero con este motor deja de responder solo como una lista de frases guardadas.
+
+Pruebas recomendadas:
+- Buenos dias
+- Como estas
+- Crea un saludo
+- Crea un saludo de buenos dias
+- Me siento frustrado con mi app
+- Crea código para una calculadora
+- Explica qué es una IA local
+- Cómo hago que mi app se sienta más profesional
